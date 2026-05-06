@@ -4,7 +4,7 @@
   "description": "Projeto desenvolvido para prática de **lógica de programação** utilizando **TypeScript**.",
   "main": "main.ts",
   "scripts": {
-	"start": "ts-node main.ts",  
+    "start": "ts-node main.ts",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
