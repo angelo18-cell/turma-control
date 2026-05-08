@@ -1,10 +1,13 @@
 const tela = require("readline-sync")
+const { título } = require("./utius.ts")
 
 let alunos:string[] = []
 let nascimento:string[] = []
 let contatos:string[] = [] 
 
 function telaCadastro() {
+
+	título("CADASTRO DE ALUNO")
 	const nomeAluno:string = tela.question("Nome do aluno: ")
 	const datanascimento:string = tela.question("Data Nascimento:")
 	const contato:string = tela.question("Número de contato:")
